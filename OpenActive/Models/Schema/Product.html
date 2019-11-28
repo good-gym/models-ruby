@@ -1,0 +1,3283 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  Class: OpenActive::Models::Schema::Product
+  
+    &mdash; Documentation by YARD 0.9.20
+  
+</title>
+
+  <link rel="stylesheet" href="../../../css/style.css" type="text/css" charset="utf-8" />
+
+  <link rel="stylesheet" href="../../../css/common.css" type="text/css" charset="utf-8" />
+
+<script type="text/javascript" charset="utf-8">
+  pathId = "OpenActive::Models::Schema::Product";
+  relpath = '../../../';
+</script>
+
+
+  <script type="text/javascript" charset="utf-8" src="../../../js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="../../../js/app.js"></script>
+
+
+  </head>
+  <body>
+    <div class="nav_wrap">
+      <iframe id="nav" src="../../../class_list.html?1"></iframe>
+      <div id="resizer"></div>
+    </div>
+
+    <div id="main" tabindex="-1">
+      <div id="header">
+        <div id="menu">
+  
+    <a href="../../../_index.html">Index (P)</a> &raquo;
+    <span class='title'><span class='object_link'><a href="../../../OpenActive.html" title="OpenActive (module)">OpenActive</a></span></span> &raquo; <span class='title'><span class='object_link'><a href="../../Models.html" title="OpenActive::Models (module)">Models</a></span></span> &raquo; <span class='title'><span class='object_link'><a href="../Schema.html" title="OpenActive::Models::Schema (module)">Schema</a></span></span>
+     &raquo; 
+    <span class="title">Product</span>
+  
+</div>
+
+        <div id="search">
+  
+    <a class="full_list_link" id="class_list_link"
+        href="../../../class_list.html">
+
+        <svg width="24" height="24">
+          <rect x="0" y="4" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="12" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="20" width="24" height="4" rx="1" ry="1"></rect>
+        </svg>
+    </a>
+  
+</div>
+        <div class="clear"></div>
+      </div>
+
+      <div id="content"><h1>Class: OpenActive::Models::Schema::Product
+  
+  
+  
+</h1>
+<div class="box_info">
+  
+  <dl>
+    <dt>Inherits:</dt>
+    <dd>
+      <span class="inheritName"><span class='object_link'><a href="Thing.html" title="OpenActive::Models::Schema::Thing (class)">Thing</a></span></span>
+      
+        <ul class="fullTree">
+          <li>Object</li>
+          
+            <li class="next"><span class='object_link'><a href="../../BaseModel.html" title="OpenActive::BaseModel (class)">BaseModel</a></span></li>
+          
+            <li class="next"><span class='object_link'><a href="../../JsonLdModel.html" title="OpenActive::JsonLdModel (class)">JsonLdModel</a></span></li>
+          
+            <li class="next"><span class='object_link'><a href="Thing.html" title="OpenActive::Models::Schema::Thing (class)">Thing</a></span></li>
+          
+            <li class="next">OpenActive::Models::Schema::Product</li>
+          
+        </ul>
+        <a href="#" class="inheritanceTree">show all</a>
+      
+    </dd>
+  </dl>
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  <dl>
+    <dt>Defined in:</dt>
+    <dd>lib/openactive/models/schema/product.rb</dd>
+  </dl>
+  
+</div>
+
+<div id="subclasses">
+  <h2>Direct Known Subclasses</h2>
+  <p class="children"><span class='object_link'><a href="../FacilityUse.html" title="OpenActive::Models::FacilityUse (class)">FacilityUse</a></span>, <span class='object_link'><a href="IndividualProduct.html" title="OpenActive::Models::Schema::IndividualProduct (class)">IndividualProduct</a></span>, <span class='object_link'><a href="ProductModel.html" title="OpenActive::Models::Schema::ProductModel (class)">ProductModel</a></span>, <span class='object_link'><a href="SomeProducts.html" title="OpenActive::Models::Schema::SomeProducts (class)">SomeProducts</a></span>, <span class='object_link'><a href="Vehicle.html" title="OpenActive::Models::Schema::Vehicle (class)">Vehicle</a></span></p>
+</div>
+
+
+
+
+  <h2>Instance Attribute Summary <small><a href="#" class="summary_toggle">collapse</a></small></h2>
+  <ul class="summary">
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#additional_property-instance_method" title="#additional_property (instance method)">#<strong>additional_property</strong>  &#x21d2; OpenActive::Models::Schema::PropertyValue </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#aggregate_rating-instance_method" title="#aggregate_rating (instance method)">#<strong>aggregate_rating</strong>  &#x21d2; OpenActive::Models::Schema::AggregateRating </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#audience-instance_method" title="#audience (instance method)">#<strong>audience</strong>  &#x21d2; OpenActive::Models::Schema::Audience </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#award-instance_method" title="#award (instance method)">#<strong>award</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#awards-instance_method" title="#awards (instance method)">#<strong>awards</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#brand-instance_method" title="#brand (instance method)">#<strong>brand</strong>  &#x21d2; OpenActive::Models::Schema::Brand, OpenActive::Models::Schema::Organization </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#category-instance_method" title="#category (instance method)">#<strong>category</strong>  &#x21d2; String, OpenActive::Models::Schema::Thing </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#color-instance_method" title="#color (instance method)">#<strong>color</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#depth-instance_method" title="#depth (instance method)">#<strong>depth</strong>  &#x21d2; OpenActive::Models::Schema::QuantitativeValue, OpenActive::Models::Schema::Distance </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#gtin-instance_method" title="#gtin (instance method)">#<strong>gtin</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#gtin12-instance_method" title="#gtin12 (instance method)">#<strong>gtin12</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#gtin13-instance_method" title="#gtin13 (instance method)">#<strong>gtin13</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#gtin14-instance_method" title="#gtin14 (instance method)">#<strong>gtin14</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#gtin8-instance_method" title="#gtin8 (instance method)">#<strong>gtin8</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#has_product_return_policy-instance_method" title="#has_product_return_policy (instance method)">#<strong>has_product_return_policy</strong>  &#x21d2; OpenActive::Models::Schema::ProductReturnPolicy </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#height-instance_method" title="#height (instance method)">#<strong>height</strong>  &#x21d2; OpenActive::Models::Schema::QuantitativeValue, OpenActive::Models::Schema::Distance </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#is_accessory_or_spare_part_for-instance_method" title="#is_accessory_or_spare_part_for (instance method)">#<strong>is_accessory_or_spare_part_for</strong>  &#x21d2; OpenActive::Models::Schema::Product </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#is_consumable_for-instance_method" title="#is_consumable_for (instance method)">#<strong>is_consumable_for</strong>  &#x21d2; OpenActive::Models::Schema::Product </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#is_related_to-instance_method" title="#is_related_to (instance method)">#<strong>is_related_to</strong>  &#x21d2; OpenActive::Models::Schema::Service, OpenActive::Models::Schema::Product </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#is_similar_to-instance_method" title="#is_similar_to (instance method)">#<strong>is_similar_to</strong>  &#x21d2; OpenActive::Models::Schema::Service, OpenActive::Models::Schema::Product </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#item_condition-instance_method" title="#item_condition (instance method)">#<strong>item_condition</strong>  &#x21d2; OpenActive::Enums::Schema::OfferItemCondition<sup>?</sup> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#logo-instance_method" title="#logo (instance method)">#<strong>logo</strong>  &#x21d2; OpenActive::Models::Schema::ImageObject, URI </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#manufacturer-instance_method" title="#manufacturer (instance method)">#<strong>manufacturer</strong>  &#x21d2; OpenActive::Models::Schema::Organization </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#material-instance_method" title="#material (instance method)">#<strong>material</strong>  &#x21d2; URI, ... </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#model-instance_method" title="#model (instance method)">#<strong>model</strong>  &#x21d2; OpenActive::Models::Schema::ProductModel, String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#mpn-instance_method" title="#mpn (instance method)">#<strong>mpn</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#nsn-instance_method" title="#nsn (instance method)">#<strong>nsn</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#offers-instance_method" title="#offers (instance method)">#<strong>offers</strong>  &#x21d2; OpenActive::Models::Schema::Offer </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#product_id-instance_method" title="#product_id (instance method)">#<strong>product_id</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#production_date-instance_method" title="#production_date (instance method)">#<strong>production_date</strong>  &#x21d2; Date<sup>?</sup> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#purchase_date-instance_method" title="#purchase_date (instance method)">#<strong>purchase_date</strong>  &#x21d2; Date<sup>?</sup> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#release_date-instance_method" title="#release_date (instance method)">#<strong>release_date</strong>  &#x21d2; Date<sup>?</sup> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#review-instance_method" title="#review (instance method)">#<strong>review</strong>  &#x21d2; OpenActive::Models::Schema::Review </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#reviews-instance_method" title="#reviews (instance method)">#<strong>reviews</strong>  &#x21d2; OpenActive::Models::Schema::Review </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#sku-instance_method" title="#sku (instance method)">#<strong>sku</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#slogan-instance_method" title="#slogan (instance method)">#<strong>slogan</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#type-instance_method" title="#type (instance method)">#<strong>type</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#weight-instance_method" title="#weight (instance method)">#<strong>weight</strong>  &#x21d2; OpenActive::Models::Schema::QuantitativeValue </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#width-instance_method" title="#width (instance method)">#<strong>width</strong>  &#x21d2; OpenActive::Models::Schema::Distance, OpenActive::Models::Schema::QuantitativeValue </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+  </ul>
+
+
+
+  
+  
+  <h3 class="inherited">Attributes inherited from <span class='object_link'><a href="Thing.html" title="OpenActive::Models::Schema::Thing (class)">Thing</a></span></h3>
+  <p class="inherited"><span class='object_link'><a href="Thing.html#additional_type-instance_method" title="OpenActive::Models::Schema::Thing#additional_type (method)">#additional_type</a></span>, <span class='object_link'><a href="Thing.html#alternate_name-instance_method" title="OpenActive::Models::Schema::Thing#alternate_name (method)">#alternate_name</a></span>, <span class='object_link'><a href="Thing.html#description-instance_method" title="OpenActive::Models::Schema::Thing#description (method)">#description</a></span>, <span class='object_link'><a href="Thing.html#disambiguating_description-instance_method" title="OpenActive::Models::Schema::Thing#disambiguating_description (method)">#disambiguating_description</a></span>, <span class='object_link'><a href="Thing.html#identifier-instance_method" title="OpenActive::Models::Schema::Thing#identifier (method)">#identifier</a></span>, <span class='object_link'><a href="Thing.html#image-instance_method" title="OpenActive::Models::Schema::Thing#image (method)">#image</a></span>, <span class='object_link'><a href="Thing.html#main_entity_of_page-instance_method" title="OpenActive::Models::Schema::Thing#main_entity_of_page (method)">#main_entity_of_page</a></span>, <span class='object_link'><a href="Thing.html#name-instance_method" title="OpenActive::Models::Schema::Thing#name (method)">#name</a></span>, <span class='object_link'><a href="Thing.html#potential_action-instance_method" title="OpenActive::Models::Schema::Thing#potential_action (method)">#potential_action</a></span>, <span class='object_link'><a href="Thing.html#same_as-instance_method" title="OpenActive::Models::Schema::Thing#same_as (method)">#same_as</a></span>, <span class='object_link'><a href="Thing.html#subject_of-instance_method" title="OpenActive::Models::Schema::Thing#subject_of (method)">#subject_of</a></span>, <span class='object_link'><a href="Thing.html#url-instance_method" title="OpenActive::Models::Schema::Thing#url (method)">#url</a></span></p>
+
+  
+  
+  <h3 class="inherited">Attributes inherited from <span class='object_link'><a href="../../JsonLdModel.html" title="OpenActive::JsonLdModel (class)">JsonLdModel</a></span></h3>
+  <p class="inherited"><span class='object_link'><a href="../../JsonLdModel.html#context-instance_method" title="OpenActive::JsonLdModel#context (method)">#context</a></span>, <span class='object_link'><a href="../../JsonLdModel.html#id-instance_method" title="OpenActive::JsonLdModel#id (method)">#id</a></span></p>
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <h2>Method Summary</h2>
+  
+  <h3 class="inherited">Methods inherited from <span class='object_link'><a href="../../BaseModel.html" title="OpenActive::BaseModel (class)">BaseModel</a></span></h3>
+  <p class="inherited"><span class='object_link'><a href="../../BaseModel.html#assign_attributes-instance_method" title="OpenActive::BaseModel#assign_attributes (method)">#assign_attributes</a></span>, <span class='object_link'><a href="../../BaseModel.html#define_property-class_method" title="OpenActive::BaseModel.define_property (method)">define_property</a></span>, <span class='object_link'><a href="../../BaseModel.html#deserialize-instance_method" title="OpenActive::BaseModel#deserialize (method)">#deserialize</a></span>, <span class='object_link'><a href="../../BaseModel.html#deserialize-class_method" title="OpenActive::BaseModel.deserialize (method)">deserialize</a></span>, <span class='object_link'><a href="../../BaseModel.html#deserialize_value-instance_method" title="OpenActive::BaseModel#deserialize_value (method)">#deserialize_value</a></span>, <span class='object_link'><a href="../../BaseModel.html#initialize-instance_method" title="OpenActive::BaseModel#initialize (method)">#initialize</a></span>, <span class='object_link'><a href="../../BaseModel.html#serialize-class_method" title="OpenActive::BaseModel.serialize (method)">serialize</a></span>, <span class='object_link'><a href="../../BaseModel.html#serialize-instance_method" title="OpenActive::BaseModel#serialize (method)">#serialize</a></span>, <span class='object_link'><a href="../../BaseModel.html#set_property-instance_method" title="OpenActive::BaseModel#set_property (method)">#set_property</a></span>, <span class='object_link'><a href="../../BaseModel.html#to_json-instance_method" title="OpenActive::BaseModel#to_json (method)">#to_json</a></span></p>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <h3 class="inherited">Methods included from <span class='object_link'><a href="../../Concerns/TypeChecker.html" title="OpenActive::Concerns::TypeChecker (module)">Concerns::TypeChecker</a></span></h3>
+  <p class="inherited"><span class='object_link'><a href="../../Concerns/TypeChecker.html#check_types-instance_method" title="OpenActive::Concerns::TypeChecker#check_types (method)">#check_types</a></span>, <span class='object_link'><a href="../../Concerns/TypeChecker.html#included-class_method" title="OpenActive::Concerns::TypeChecker.included (method)">included</a></span></p>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <h3 class="inherited">Methods included from <span class='object_link'><a href="../../Concerns/JsonLdSerializable.html" title="OpenActive::Concerns::JsonLdSerializable (module)">Concerns::JsonLdSerializable</a></span></h3>
+  <p class="inherited"><span class='object_link'><a href="../../Concerns/JsonLdSerializable.html#included-class_method" title="OpenActive::Concerns::JsonLdSerializable.included (method)">included</a></span>, <span class='object_link'><a href="../../Concerns/JsonLdSerializable.html#to_h-instance_method" title="OpenActive::Concerns::JsonLdSerializable#to_h (method)">#to_h</a></span>, <span class='object_link'><a href="../../Concerns/JsonLdSerializable.html#values-instance_method" title="OpenActive::Concerns::JsonLdSerializable#values (method)">#values</a></span></p>
+<div id="constructor_details" class="method_details_list">
+  <h2>Constructor Details</h2>
+  
+    <p class="notice">This class inherits a constructor from <span class='object_link'><a href="../../BaseModel.html#initialize-instance_method" title="OpenActive::BaseModel#initialize (method)">OpenActive::BaseModel</a></span></p>
+  
+</div>
+
+  <div id="instance_attr_details" class="attr_details">
+    <h2>Instance Attribute Details</h2>
+    
+      
+      <span id="additional_property=-instance_method"></span>
+      <div class="method_details first">
+  <h3 class="signature first" id="additional_property-instance_method">
+  
+    #<strong>additional_property</strong>  &#x21d2; <tt><span class='object_link'><a href="PropertyValue.html" title="OpenActive::Models::Schema::PropertyValue (class)">OpenActive::Models::Schema::PropertyValue</a></span></tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="PropertyValue.html" title="OpenActive::Models::Schema::PropertyValue (class)">OpenActive::Models::Schema::PropertyValue</a></span></tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+106
+107
+108</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 106</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_additional_property'>additional_property</span>
+  <span class='ivar'>@additional_property</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="aggregate_rating=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="aggregate_rating-instance_method">
+  
+    #<strong>aggregate_rating</strong>  &#x21d2; <tt><span class='object_link'><a href="AggregateRating.html" title="OpenActive::Models::Schema::AggregateRating (class)">OpenActive::Models::Schema::AggregateRating</a></span></tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="AggregateRating.html" title="OpenActive::Models::Schema::AggregateRating (class)">OpenActive::Models::Schema::AggregateRating</a></span></tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+63
+64
+65</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 63</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_aggregate_rating'>aggregate_rating</span>
+  <span class='ivar'>@aggregate_rating</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="audience=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="audience-instance_method">
+  
+    #<strong>audience</strong>  &#x21d2; <tt><span class='object_link'><a href="Audience.html" title="OpenActive::Models::Schema::Audience (class)">OpenActive::Models::Schema::Audience</a></span></tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="Audience.html" title="OpenActive::Models::Schema::Audience (class)">OpenActive::Models::Schema::Audience</a></span></tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+40
+41
+42</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 40</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_audience'>audience</span>
+  <span class='ivar'>@audience</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="award=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="award-instance_method">
+  
+    #<strong>award</strong>  &#x21d2; <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+84
+85
+86</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 84</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_award'>award</span>
+  <span class='ivar'>@award</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="awards=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="awards-instance_method">
+  
+    #<strong>awards</strong>  &#x21d2; <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+198
+199
+200</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 198</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_awards'>awards</span>
+  <span class='ivar'>@awards</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="brand=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="brand-instance_method">
+  
+    #<strong>brand</strong>  &#x21d2; <tt><span class='object_link'><a href="Brand.html" title="OpenActive::Models::Schema::Brand (class)">OpenActive::Models::Schema::Brand</a></span></tt>, <tt><span class='object_link'><a href="Organization.html" title="OpenActive::Models::Schema::Organization (class)">OpenActive::Models::Schema::Organization</a></span></tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="Brand.html" title="OpenActive::Models::Schema::Brand (class)">OpenActive::Models::Schema::Brand</a></span></tt>, <tt><span class='object_link'><a href="Organization.html" title="OpenActive::Models::Schema::Organization (class)">OpenActive::Models::Schema::Organization</a></span></tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+187
+188
+189</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 187</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_brand'>brand</span>
+  <span class='ivar'>@brand</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="category=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="category-instance_method">
+  
+    #<strong>category</strong>  &#x21d2; <tt>String</tt>, <tt><span class='object_link'><a href="Thing.html" title="OpenActive::Models::Schema::Thing (class)">OpenActive::Models::Schema::Thing</a></span></tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>, <tt><span class='object_link'><a href="Thing.html" title="OpenActive::Models::Schema::Thing (class)">OpenActive::Models::Schema::Thing</a></span></tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+160
+161
+162</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 160</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_category'>category</span>
+  <span class='ivar'>@category</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="color=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="color-instance_method">
+  
+    #<strong>color</strong>  &#x21d2; <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+79
+80
+81</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 79</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_color'>color</span>
+  <span class='ivar'>@color</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="depth=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="depth-instance_method">
+  
+    #<strong>depth</strong>  &#x21d2; <tt><span class='object_link'><a href="QuantitativeValue.html" title="OpenActive::Models::Schema::QuantitativeValue (class)">OpenActive::Models::Schema::QuantitativeValue</a></span></tt>, <tt><span class='object_link'><a href="Distance.html" title="OpenActive::Models::Schema::Distance (class)">OpenActive::Models::Schema::Distance</a></span></tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="QuantitativeValue.html" title="OpenActive::Models::Schema::QuantitativeValue (class)">OpenActive::Models::Schema::QuantitativeValue</a></span></tt>, <tt><span class='object_link'><a href="Distance.html" title="OpenActive::Models::Schema::Distance (class)">OpenActive::Models::Schema::Distance</a></span></tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+45
+46
+47</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 45</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_depth'>depth</span>
+  <span class='ivar'>@depth</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="gtin=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="gtin-instance_method">
+  
+    #<strong>gtin</strong>  &#x21d2; <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+176
+177
+178</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 176</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_gtin'>gtin</span>
+  <span class='ivar'>@gtin</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="gtin12=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="gtin12-instance_method">
+  
+    #<strong>gtin12</strong>  &#x21d2; <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+13
+14
+15</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 13</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_gtin12'>gtin12</span>
+  <span class='ivar'>@gtin12</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="gtin13=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="gtin13-instance_method">
+  
+    #<strong>gtin13</strong>  &#x21d2; <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+128
+129
+130</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 128</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_gtin13'>gtin13</span>
+  <span class='ivar'>@gtin13</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="gtin14=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="gtin14-instance_method">
+  
+    #<strong>gtin14</strong>  &#x21d2; <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+193
+194
+195</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 193</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_gtin14'>gtin14</span>
+  <span class='ivar'>@gtin14</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="gtin8=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="gtin8-instance_method">
+  
+    #<strong>gtin8</strong>  &#x21d2; <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+208
+209
+210</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 208</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_gtin8'>gtin8</span>
+  <span class='ivar'>@gtin8</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="has_product_return_policy=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="has_product_return_policy-instance_method">
+  
+    #<strong>has_product_return_policy</strong>  &#x21d2; <tt><span class='object_link'><a href="ProductReturnPolicy.html" title="OpenActive::Models::Schema::ProductReturnPolicy (class)">OpenActive::Models::Schema::ProductReturnPolicy</a></span></tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="ProductReturnPolicy.html" title="OpenActive::Models::Schema::ProductReturnPolicy (class)">OpenActive::Models::Schema::ProductReturnPolicy</a></span></tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+18
+19
+20</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 18</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_has_product_return_policy'>has_product_return_policy</span>
+  <span class='ivar'>@has_product_return_policy</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="height=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="height-instance_method">
+  
+    #<strong>height</strong>  &#x21d2; <tt><span class='object_link'><a href="QuantitativeValue.html" title="OpenActive::Models::Schema::QuantitativeValue (class)">OpenActive::Models::Schema::QuantitativeValue</a></span></tt>, <tt><span class='object_link'><a href="Distance.html" title="OpenActive::Models::Schema::Distance (class)">OpenActive::Models::Schema::Distance</a></span></tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="QuantitativeValue.html" title="OpenActive::Models::Schema::QuantitativeValue (class)">OpenActive::Models::Schema::QuantitativeValue</a></span></tt>, <tt><span class='object_link'><a href="Distance.html" title="OpenActive::Models::Schema::Distance (class)">OpenActive::Models::Schema::Distance</a></span></tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+51
+52
+53</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 51</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_height'>height</span>
+  <span class='ivar'>@height</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="is_accessory_or_spare_part_for=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="is_accessory_or_spare_part_for-instance_method">
+  
+    #<strong>is_accessory_or_spare_part_for</strong>  &#x21d2; <tt><span class='object_link'><a href="" title="OpenActive::Models::Schema::Product (class)">OpenActive::Models::Schema::Product</a></span></tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="" title="OpenActive::Models::Schema::Product (class)">OpenActive::Models::Schema::Product</a></span></tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+166
+167
+168</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 166</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_is_accessory_or_spare_part_for'>is_accessory_or_spare_part_for</span>
+  <span class='ivar'>@is_accessory_or_spare_part_for</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="is_consumable_for=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="is_consumable_for-instance_method">
+  
+    #<strong>is_consumable_for</strong>  &#x21d2; <tt><span class='object_link'><a href="" title="OpenActive::Models::Schema::Product (class)">OpenActive::Models::Schema::Product</a></span></tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="" title="OpenActive::Models::Schema::Product (class)">OpenActive::Models::Schema::Product</a></span></tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+150
+151
+152</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 150</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_is_consumable_for'>is_consumable_for</span>
+  <span class='ivar'>@is_consumable_for</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="is_related_to=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="is_related_to-instance_method">
+  
+    #<strong>is_related_to</strong>  &#x21d2; <tt><span class='object_link'><a href="Service.html" title="OpenActive::Models::Schema::Service (class)">OpenActive::Models::Schema::Service</a></span></tt>, <tt><span class='object_link'><a href="" title="OpenActive::Models::Schema::Product (class)">OpenActive::Models::Schema::Product</a></span></tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="Service.html" title="OpenActive::Models::Schema::Service (class)">OpenActive::Models::Schema::Service</a></span></tt>, <tt><span class='object_link'><a href="" title="OpenActive::Models::Schema::Product (class)">OpenActive::Models::Schema::Product</a></span></tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+89
+90
+91</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 89</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_is_related_to'>is_related_to</span>
+  <span class='ivar'>@is_related_to</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="is_similar_to=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="is_similar_to-instance_method">
+  
+    #<strong>is_similar_to</strong>  &#x21d2; <tt><span class='object_link'><a href="Service.html" title="OpenActive::Models::Schema::Service (class)">OpenActive::Models::Schema::Service</a></span></tt>, <tt><span class='object_link'><a href="" title="OpenActive::Models::Schema::Product (class)">OpenActive::Models::Schema::Product</a></span></tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="Service.html" title="OpenActive::Models::Schema::Service (class)">OpenActive::Models::Schema::Service</a></span></tt>, <tt><span class='object_link'><a href="" title="OpenActive::Models::Schema::Product (class)">OpenActive::Models::Schema::Product</a></span></tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+57
+58
+59</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 57</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_is_similar_to'>is_similar_to</span>
+  <span class='ivar'>@is_similar_to</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="item_condition=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="item_condition-instance_method">
+  
+    #<strong>item_condition</strong>  &#x21d2; <tt><span class='object_link'><a href="../../Enums/Schema/OfferItemCondition.html" title="OpenActive::Enums::Schema::OfferItemCondition (class)">OpenActive::Enums::Schema::OfferItemCondition</a></span></tt><sup>?</sup> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="../../Enums/Schema/OfferItemCondition.html" title="OpenActive::Enums::Schema::OfferItemCondition (class)">OpenActive::Enums::Schema::OfferItemCondition</a></span></tt>, <tt>nil</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+133
+134
+135</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 133</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_item_condition'>item_condition</span>
+  <span class='ivar'>@item_condition</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="logo=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="logo-instance_method">
+  
+    #<strong>logo</strong>  &#x21d2; <tt><span class='object_link'><a href="ImageObject.html" title="OpenActive::Models::Schema::ImageObject (class)">OpenActive::Models::Schema::ImageObject</a></span></tt>, <tt>URI</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="ImageObject.html" title="OpenActive::Models::Schema::ImageObject (class)">OpenActive::Models::Schema::ImageObject</a></span></tt>, <tt>URI</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+116
+117
+118</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 116</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_logo'>logo</span>
+  <span class='ivar'>@logo</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="manufacturer=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="manufacturer-instance_method">
+  
+    #<strong>manufacturer</strong>  &#x21d2; <tt><span class='object_link'><a href="Organization.html" title="OpenActive::Models::Schema::Organization (class)">OpenActive::Models::Schema::Organization</a></span></tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="Organization.html" title="OpenActive::Models::Schema::Organization (class)">OpenActive::Models::Schema::Organization</a></span></tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+30
+31
+32</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 30</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_manufacturer'>manufacturer</span>
+  <span class='ivar'>@manufacturer</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="material=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="material-instance_method">
+  
+    #<strong>material</strong>  &#x21d2; <tt>URI</tt>, ... 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>URI</tt>, <tt><span class='object_link'><a href="" title="OpenActive::Models::Schema::Product (class)">OpenActive::Models::Schema::Product</a></span></tt>, <tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+23
+24
+25</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 23</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_material'>material</span>
+  <span class='ivar'>@material</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="model=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="model-instance_method">
+  
+    #<strong>model</strong>  &#x21d2; <tt><span class='object_link'><a href="ProductModel.html" title="OpenActive::Models::Schema::ProductModel (class)">OpenActive::Models::Schema::ProductModel</a></span></tt>, <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="ProductModel.html" title="OpenActive::Models::Schema::ProductModel (class)">OpenActive::Models::Schema::ProductModel</a></span></tt>, <tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+68
+69
+70</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 68</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_model'>model</span>
+  <span class='ivar'>@model</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="mpn=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="mpn-instance_method">
+  
+    #<strong>mpn</strong>  &#x21d2; <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+139
+140
+141</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 139</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_mpn'>mpn</span>
+  <span class='ivar'>@mpn</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="nsn=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="nsn-instance_method">
+  
+    #<strong>nsn</strong>  &#x21d2; <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+171
+172
+173</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 171</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_nsn'>nsn</span>
+  <span class='ivar'>@nsn</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="offers=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="offers-instance_method">
+  
+    #<strong>offers</strong>  &#x21d2; <tt><span class='object_link'><a href="Offer.html" title="OpenActive::Models::Schema::Offer (class)">OpenActive::Models::Schema::Offer</a></span></tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="Offer.html" title="OpenActive::Models::Schema::Offer (class)">OpenActive::Models::Schema::Offer</a></span></tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+203
+204
+205</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 203</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_offers'>offers</span>
+  <span class='ivar'>@offers</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="product_id=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="product_id-instance_method">
+  
+    #<strong>product_id</strong>  &#x21d2; <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+101
+102
+103</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 101</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_product_id'>product_id</span>
+  <span class='ivar'>@product_id</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="production_date=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="production_date-instance_method">
+  
+    #<strong>production_date</strong>  &#x21d2; <tt>Date</tt><sup>?</sup> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Date</tt>, <tt>nil</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+144
+145
+146</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 144</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_production_date'>production_date</span>
+  <span class='ivar'>@production_date</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="purchase_date=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="purchase_date-instance_method">
+  
+    #<strong>purchase_date</strong>  &#x21d2; <tt>Date</tt><sup>?</sup> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Date</tt>, <tt>nil</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+122
+123
+124</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 122</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_purchase_date'>purchase_date</span>
+  <span class='ivar'>@purchase_date</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="release_date=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="release_date-instance_method">
+  
+    #<strong>release_date</strong>  &#x21d2; <tt>Date</tt><sup>?</sup> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Date</tt>, <tt>nil</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+181
+182
+183</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 181</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_release_date'>release_date</span>
+  <span class='ivar'>@release_date</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="review=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="review-instance_method">
+  
+    #<strong>review</strong>  &#x21d2; <tt><span class='object_link'><a href="Review.html" title="OpenActive::Models::Schema::Review (class)">OpenActive::Models::Schema::Review</a></span></tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="Review.html" title="OpenActive::Models::Schema::Review (class)">OpenActive::Models::Schema::Review</a></span></tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+111
+112
+113</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 111</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_review'>review</span>
+  <span class='ivar'>@review</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="reviews=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="reviews-instance_method">
+  
+    #<strong>reviews</strong>  &#x21d2; <tt><span class='object_link'><a href="Review.html" title="OpenActive::Models::Schema::Review (class)">OpenActive::Models::Schema::Review</a></span></tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="Review.html" title="OpenActive::Models::Schema::Review (class)">OpenActive::Models::Schema::Review</a></span></tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+74
+75
+76</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 74</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_reviews'>reviews</span>
+  <span class='ivar'>@reviews</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="sku=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="sku-instance_method">
+  
+    #<strong>sku</strong>  &#x21d2; <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+213
+214
+215</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 213</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_sku'>sku</span>
+  <span class='ivar'>@sku</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="slogan=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="slogan-instance_method">
+  
+    #<strong>slogan</strong>  &#x21d2; <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+155
+156
+157</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 155</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_slogan'>slogan</span>
+  <span class='ivar'>@slogan</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="type=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="type-instance_method">
+  
+    #<strong>type</strong>  &#x21d2; <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+7
+8
+9</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 7</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_type'>type</span>
+  <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>schema:Product</span><span class='tstring_end'>&quot;</span></span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="weight=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="weight-instance_method">
+  
+    #<strong>weight</strong>  &#x21d2; <tt><span class='object_link'><a href="QuantitativeValue.html" title="OpenActive::Models::Schema::QuantitativeValue (class)">OpenActive::Models::Schema::QuantitativeValue</a></span></tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="QuantitativeValue.html" title="OpenActive::Models::Schema::QuantitativeValue (class)">OpenActive::Models::Schema::QuantitativeValue</a></span></tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+35
+36
+37</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 35</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_weight'>weight</span>
+  <span class='ivar'>@weight</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="width=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="width-instance_method">
+  
+    #<strong>width</strong>  &#x21d2; <tt><span class='object_link'><a href="Distance.html" title="OpenActive::Models::Schema::Distance (class)">OpenActive::Models::Schema::Distance</a></span></tt>, <tt><span class='object_link'><a href="QuantitativeValue.html" title="OpenActive::Models::Schema::QuantitativeValue (class)">OpenActive::Models::Schema::QuantitativeValue</a></span></tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="Distance.html" title="OpenActive::Models::Schema::Distance (class)">OpenActive::Models::Schema::Distance</a></span></tt>, <tt><span class='object_link'><a href="QuantitativeValue.html" title="OpenActive::Models::Schema::QuantitativeValue (class)">OpenActive::Models::Schema::QuantitativeValue</a></span></tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+95
+96
+97</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/product.rb', line 95</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_width'>width</span>
+  <span class='ivar'>@width</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+
+</div>
+
+      <div id="footer">
+  Generated on Wed Nov 27 13:48:38 2019 by
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.9.20 (ruby-2.6.3).
+</div>
+
+    </div>
+  </body>
+</html>

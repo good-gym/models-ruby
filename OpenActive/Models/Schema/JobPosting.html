@@ -1,0 +1,2576 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  Class: OpenActive::Models::Schema::JobPosting
+  
+    &mdash; Documentation by YARD 0.9.20
+  
+</title>
+
+  <link rel="stylesheet" href="../../../css/style.css" type="text/css" charset="utf-8" />
+
+  <link rel="stylesheet" href="../../../css/common.css" type="text/css" charset="utf-8" />
+
+<script type="text/javascript" charset="utf-8">
+  pathId = "OpenActive::Models::Schema::JobPosting";
+  relpath = '../../../';
+</script>
+
+
+  <script type="text/javascript" charset="utf-8" src="../../../js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="../../../js/app.js"></script>
+
+
+  </head>
+  <body>
+    <div class="nav_wrap">
+      <iframe id="nav" src="../../../class_list.html?1"></iframe>
+      <div id="resizer"></div>
+    </div>
+
+    <div id="main" tabindex="-1">
+      <div id="header">
+        <div id="menu">
+  
+    <a href="../../../_index.html">Index (J)</a> &raquo;
+    <span class='title'><span class='object_link'><a href="../../../OpenActive.html" title="OpenActive (module)">OpenActive</a></span></span> &raquo; <span class='title'><span class='object_link'><a href="../../Models.html" title="OpenActive::Models (module)">Models</a></span></span> &raquo; <span class='title'><span class='object_link'><a href="../Schema.html" title="OpenActive::Models::Schema (module)">Schema</a></span></span>
+     &raquo; 
+    <span class="title">JobPosting</span>
+  
+</div>
+
+        <div id="search">
+  
+    <a class="full_list_link" id="class_list_link"
+        href="../../../class_list.html">
+
+        <svg width="24" height="24">
+          <rect x="0" y="4" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="12" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="20" width="24" height="4" rx="1" ry="1"></rect>
+        </svg>
+    </a>
+  
+</div>
+        <div class="clear"></div>
+      </div>
+
+      <div id="content"><h1>Class: OpenActive::Models::Schema::JobPosting
+  
+  
+  
+</h1>
+<div class="box_info">
+  
+  <dl>
+    <dt>Inherits:</dt>
+    <dd>
+      <span class="inheritName"><span class='object_link'><a href="Intangible.html" title="OpenActive::Models::Schema::Intangible (class)">Intangible</a></span></span>
+      
+        <ul class="fullTree">
+          <li>Object</li>
+          
+            <li class="next"><span class='object_link'><a href="../../BaseModel.html" title="OpenActive::BaseModel (class)">BaseModel</a></span></li>
+          
+            <li class="next"><span class='object_link'><a href="../../JsonLdModel.html" title="OpenActive::JsonLdModel (class)">JsonLdModel</a></span></li>
+          
+            <li class="next"><span class='object_link'><a href="Thing.html" title="OpenActive::Models::Schema::Thing (class)">Thing</a></span></li>
+          
+            <li class="next"><span class='object_link'><a href="Intangible.html" title="OpenActive::Models::Schema::Intangible (class)">Intangible</a></span></li>
+          
+            <li class="next">OpenActive::Models::Schema::JobPosting</li>
+          
+        </ul>
+        <a href="#" class="inheritanceTree">show all</a>
+      
+    </dd>
+  </dl>
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  <dl>
+    <dt>Defined in:</dt>
+    <dd>lib/openactive/models/schema/job_posting.rb</dd>
+  </dl>
+  
+</div>
+
+
+
+
+
+  <h2>Instance Attribute Summary <small><a href="#" class="summary_toggle">collapse</a></small></h2>
+  <ul class="summary">
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#applicant_location_requirements-instance_method" title="#applicant_location_requirements (instance method)">#<strong>applicant_location_requirements</strong>  &#x21d2; OpenActive::Models::Schema::AdministrativeArea </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#base_salary-instance_method" title="#base_salary (instance method)">#<strong>base_salary</strong>  &#x21d2; OpenActive::Models::Schema::PriceSpecification, ... </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#benefits-instance_method" title="#benefits (instance method)">#<strong>benefits</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#date_posted-instance_method" title="#date_posted (instance method)">#<strong>date_posted</strong>  &#x21d2; Date<sup>?</sup> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#education_requirements-instance_method" title="#education_requirements (instance method)">#<strong>education_requirements</strong>  &#x21d2; OpenActive::Models::Schema::EducationalOccupationalCredential, String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#employment_type-instance_method" title="#employment_type (instance method)">#<strong>employment_type</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#employment_unit-instance_method" title="#employment_unit (instance method)">#<strong>employment_unit</strong>  &#x21d2; OpenActive::Models::Schema::Organization </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#estimated_salary-instance_method" title="#estimated_salary (instance method)">#<strong>estimated_salary</strong>  &#x21d2; BigDecimal, ... </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#experience_requirements-instance_method" title="#experience_requirements (instance method)">#<strong>experience_requirements</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#hiring_organization-instance_method" title="#hiring_organization (instance method)">#<strong>hiring_organization</strong>  &#x21d2; OpenActive::Models::Schema::Organization </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#incentive_compensation-instance_method" title="#incentive_compensation (instance method)">#<strong>incentive_compensation</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#incentives-instance_method" title="#incentives (instance method)">#<strong>incentives</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#industry-instance_method" title="#industry (instance method)">#<strong>industry</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#job_benefits-instance_method" title="#job_benefits (instance method)">#<strong>job_benefits</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#job_immediate_start-instance_method" title="#job_immediate_start (instance method)">#<strong>job_immediate_start</strong>  &#x21d2; Boolean<sup>?</sup> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#job_location-instance_method" title="#job_location (instance method)">#<strong>job_location</strong>  &#x21d2; OpenActive::Models::Schema::Place </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#job_location_type-instance_method" title="#job_location_type (instance method)">#<strong>job_location_type</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#job_start_date-instance_method" title="#job_start_date (instance method)">#<strong>job_start_date</strong>  &#x21d2; String, ... </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#occupational_category-instance_method" title="#occupational_category (instance method)">#<strong>occupational_category</strong>  &#x21d2; OpenActive::Models::Schema::CategoryCode, String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#qualifications-instance_method" title="#qualifications (instance method)">#<strong>qualifications</strong>  &#x21d2; String, OpenActive::Models::Schema::EducationalOccupationalCredential </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#relevant_occupation-instance_method" title="#relevant_occupation (instance method)">#<strong>relevant_occupation</strong>  &#x21d2; OpenActive::Models::Schema::Occupation </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#responsibilities-instance_method" title="#responsibilities (instance method)">#<strong>responsibilities</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#salary_currency-instance_method" title="#salary_currency (instance method)">#<strong>salary_currency</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#skills-instance_method" title="#skills (instance method)">#<strong>skills</strong>  &#x21d2; OpenActive::Models::Schema::DefinedTerm, String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#special_commitments-instance_method" title="#special_commitments (instance method)">#<strong>special_commitments</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#title-instance_method" title="#title (instance method)">#<strong>title</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#total_job_openings-instance_method" title="#total_job_openings (instance method)">#<strong>total_job_openings</strong>  &#x21d2; int<sup>?</sup> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#type-instance_method" title="#type (instance method)">#<strong>type</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#valid_through-instance_method" title="#valid_through (instance method)">#<strong>valid_through</strong>  &#x21d2; Date, ... </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#work_hours-instance_method" title="#work_hours (instance method)">#<strong>work_hours</strong>  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+  </ul>
+
+
+
+  
+  
+  <h3 class="inherited">Attributes inherited from <span class='object_link'><a href="Thing.html" title="OpenActive::Models::Schema::Thing (class)">Thing</a></span></h3>
+  <p class="inherited"><span class='object_link'><a href="Thing.html#additional_type-instance_method" title="OpenActive::Models::Schema::Thing#additional_type (method)">#additional_type</a></span>, <span class='object_link'><a href="Thing.html#alternate_name-instance_method" title="OpenActive::Models::Schema::Thing#alternate_name (method)">#alternate_name</a></span>, <span class='object_link'><a href="Thing.html#description-instance_method" title="OpenActive::Models::Schema::Thing#description (method)">#description</a></span>, <span class='object_link'><a href="Thing.html#disambiguating_description-instance_method" title="OpenActive::Models::Schema::Thing#disambiguating_description (method)">#disambiguating_description</a></span>, <span class='object_link'><a href="Thing.html#identifier-instance_method" title="OpenActive::Models::Schema::Thing#identifier (method)">#identifier</a></span>, <span class='object_link'><a href="Thing.html#image-instance_method" title="OpenActive::Models::Schema::Thing#image (method)">#image</a></span>, <span class='object_link'><a href="Thing.html#main_entity_of_page-instance_method" title="OpenActive::Models::Schema::Thing#main_entity_of_page (method)">#main_entity_of_page</a></span>, <span class='object_link'><a href="Thing.html#name-instance_method" title="OpenActive::Models::Schema::Thing#name (method)">#name</a></span>, <span class='object_link'><a href="Thing.html#potential_action-instance_method" title="OpenActive::Models::Schema::Thing#potential_action (method)">#potential_action</a></span>, <span class='object_link'><a href="Thing.html#same_as-instance_method" title="OpenActive::Models::Schema::Thing#same_as (method)">#same_as</a></span>, <span class='object_link'><a href="Thing.html#subject_of-instance_method" title="OpenActive::Models::Schema::Thing#subject_of (method)">#subject_of</a></span>, <span class='object_link'><a href="Thing.html#url-instance_method" title="OpenActive::Models::Schema::Thing#url (method)">#url</a></span></p>
+
+  
+  
+  <h3 class="inherited">Attributes inherited from <span class='object_link'><a href="../../JsonLdModel.html" title="OpenActive::JsonLdModel (class)">JsonLdModel</a></span></h3>
+  <p class="inherited"><span class='object_link'><a href="../../JsonLdModel.html#context-instance_method" title="OpenActive::JsonLdModel#context (method)">#context</a></span>, <span class='object_link'><a href="../../JsonLdModel.html#id-instance_method" title="OpenActive::JsonLdModel#id (method)">#id</a></span></p>
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <h2>Method Summary</h2>
+  
+  <h3 class="inherited">Methods inherited from <span class='object_link'><a href="../../BaseModel.html" title="OpenActive::BaseModel (class)">BaseModel</a></span></h3>
+  <p class="inherited"><span class='object_link'><a href="../../BaseModel.html#assign_attributes-instance_method" title="OpenActive::BaseModel#assign_attributes (method)">#assign_attributes</a></span>, <span class='object_link'><a href="../../BaseModel.html#define_property-class_method" title="OpenActive::BaseModel.define_property (method)">define_property</a></span>, <span class='object_link'><a href="../../BaseModel.html#deserialize-instance_method" title="OpenActive::BaseModel#deserialize (method)">#deserialize</a></span>, <span class='object_link'><a href="../../BaseModel.html#deserialize-class_method" title="OpenActive::BaseModel.deserialize (method)">deserialize</a></span>, <span class='object_link'><a href="../../BaseModel.html#deserialize_value-instance_method" title="OpenActive::BaseModel#deserialize_value (method)">#deserialize_value</a></span>, <span class='object_link'><a href="../../BaseModel.html#initialize-instance_method" title="OpenActive::BaseModel#initialize (method)">#initialize</a></span>, <span class='object_link'><a href="../../BaseModel.html#serialize-class_method" title="OpenActive::BaseModel.serialize (method)">serialize</a></span>, <span class='object_link'><a href="../../BaseModel.html#serialize-instance_method" title="OpenActive::BaseModel#serialize (method)">#serialize</a></span>, <span class='object_link'><a href="../../BaseModel.html#set_property-instance_method" title="OpenActive::BaseModel#set_property (method)">#set_property</a></span>, <span class='object_link'><a href="../../BaseModel.html#to_json-instance_method" title="OpenActive::BaseModel#to_json (method)">#to_json</a></span></p>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <h3 class="inherited">Methods included from <span class='object_link'><a href="../../Concerns/TypeChecker.html" title="OpenActive::Concerns::TypeChecker (module)">Concerns::TypeChecker</a></span></h3>
+  <p class="inherited"><span class='object_link'><a href="../../Concerns/TypeChecker.html#check_types-instance_method" title="OpenActive::Concerns::TypeChecker#check_types (method)">#check_types</a></span>, <span class='object_link'><a href="../../Concerns/TypeChecker.html#included-class_method" title="OpenActive::Concerns::TypeChecker.included (method)">included</a></span></p>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <h3 class="inherited">Methods included from <span class='object_link'><a href="../../Concerns/JsonLdSerializable.html" title="OpenActive::Concerns::JsonLdSerializable (module)">Concerns::JsonLdSerializable</a></span></h3>
+  <p class="inherited"><span class='object_link'><a href="../../Concerns/JsonLdSerializable.html#included-class_method" title="OpenActive::Concerns::JsonLdSerializable.included (method)">included</a></span>, <span class='object_link'><a href="../../Concerns/JsonLdSerializable.html#to_h-instance_method" title="OpenActive::Concerns::JsonLdSerializable#to_h (method)">#to_h</a></span>, <span class='object_link'><a href="../../Concerns/JsonLdSerializable.html#values-instance_method" title="OpenActive::Concerns::JsonLdSerializable#values (method)">#values</a></span></p>
+<div id="constructor_details" class="method_details_list">
+  <h2>Constructor Details</h2>
+  
+    <p class="notice">This class inherits a constructor from <span class='object_link'><a href="../../BaseModel.html#initialize-instance_method" title="OpenActive::BaseModel#initialize (method)">OpenActive::BaseModel</a></span></p>
+  
+</div>
+
+  <div id="instance_attr_details" class="attr_details">
+    <h2>Instance Attribute Details</h2>
+    
+      
+      <span id="applicant_location_requirements=-instance_method"></span>
+      <div class="method_details first">
+  <h3 class="signature first" id="applicant_location_requirements-instance_method">
+  
+    #<strong>applicant_location_requirements</strong>  &#x21d2; <tt><span class='object_link'><a href="AdministrativeArea.html" title="OpenActive::Models::Schema::AdministrativeArea (class)">OpenActive::Models::Schema::AdministrativeArea</a></span></tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="AdministrativeArea.html" title="OpenActive::Models::Schema::AdministrativeArea (class)">OpenActive::Models::Schema::AdministrativeArea</a></span></tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+96
+97
+98</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/job_posting.rb', line 96</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_applicant_location_requirements'>applicant_location_requirements</span>
+  <span class='ivar'>@applicant_location_requirements</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="base_salary=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="base_salary-instance_method">
+  
+    #<strong>base_salary</strong>  &#x21d2; <tt><span class='object_link'><a href="PriceSpecification.html" title="OpenActive::Models::Schema::PriceSpecification (class)">OpenActive::Models::Schema::PriceSpecification</a></span></tt>, ... 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="PriceSpecification.html" title="OpenActive::Models::Schema::PriceSpecification (class)">OpenActive::Models::Schema::PriceSpecification</a></span></tt>, <tt><span class='object_link'><a href="MonetaryAmount.html" title="OpenActive::Models::Schema::MonetaryAmount (class)">OpenActive::Models::Schema::MonetaryAmount</a></span></tt>, <tt>BigDecimal</tt>, <tt>nil</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+167
+168
+169</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/job_posting.rb', line 167</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_base_salary'>base_salary</span>
+  <span class='ivar'>@base_salary</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="benefits=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="benefits-instance_method">
+  
+    #<strong>benefits</strong>  &#x21d2; <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+157
+158
+159</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/job_posting.rb', line 157</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_benefits'>benefits</span>
+  <span class='ivar'>@benefits</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="date_posted=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="date_posted-instance_method">
+  
+    #<strong>date_posted</strong>  &#x21d2; <tt>Date</tt><sup>?</sup> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Date</tt>, <tt>nil</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+119
+120
+121</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/job_posting.rb', line 119</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_date_posted'>date_posted</span>
+  <span class='ivar'>@date_posted</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="education_requirements=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="education_requirements-instance_method">
+  
+    #<strong>education_requirements</strong>  &#x21d2; <tt><span class='object_link'><a href="EducationalOccupationalCredential.html" title="OpenActive::Models::Schema::EducationalOccupationalCredential (class)">OpenActive::Models::Schema::EducationalOccupationalCredential</a></span></tt>, <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="EducationalOccupationalCredential.html" title="OpenActive::Models::Schema::EducationalOccupationalCredential (class)">OpenActive::Models::Schema::EducationalOccupationalCredential</a></span></tt>, <tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+141
+142
+143</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/job_posting.rb', line 141</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_education_requirements'>education_requirements</span>
+  <span class='ivar'>@education_requirements</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="employment_type=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="employment_type-instance_method">
+  
+    #<strong>employment_type</strong>  &#x21d2; <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+39
+40
+41</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/job_posting.rb', line 39</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_employment_type'>employment_type</span>
+  <span class='ivar'>@employment_type</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="employment_unit=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="employment_unit-instance_method">
+  
+    #<strong>employment_unit</strong>  &#x21d2; <tt><span class='object_link'><a href="Organization.html" title="OpenActive::Models::Schema::Organization (class)">OpenActive::Models::Schema::Organization</a></span></tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="Organization.html" title="OpenActive::Models::Schema::Organization (class)">OpenActive::Models::Schema::Organization</a></span></tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+125
+126
+127</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/job_posting.rb', line 125</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_employment_unit'>employment_unit</span>
+  <span class='ivar'>@employment_unit</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="estimated_salary=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="estimated_salary-instance_method">
+  
+    #<strong>estimated_salary</strong>  &#x21d2; <tt>BigDecimal</tt>, ... 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>BigDecimal</tt>, <tt><span class='object_link'><a href="MonetaryAmountDistribution.html" title="OpenActive::Models::Schema::MonetaryAmountDistribution (class)">OpenActive::Models::Schema::MonetaryAmountDistribution</a></span></tt>, <tt><span class='object_link'><a href="MonetaryAmount.html" title="OpenActive::Models::Schema::MonetaryAmount (class)">OpenActive::Models::Schema::MonetaryAmount</a></span></tt>, <tt>nil</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+49
+50
+51</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/job_posting.rb', line 49</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_estimated_salary'>estimated_salary</span>
+  <span class='ivar'>@estimated_salary</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="experience_requirements=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="experience_requirements-instance_method">
+  
+    #<strong>experience_requirements</strong>  &#x21d2; <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+29
+30
+31</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/job_posting.rb', line 29</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_experience_requirements'>experience_requirements</span>
+  <span class='ivar'>@experience_requirements</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="hiring_organization=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="hiring_organization-instance_method">
+  
+    #<strong>hiring_organization</strong>  &#x21d2; <tt><span class='object_link'><a href="Organization.html" title="OpenActive::Models::Schema::Organization (class)">OpenActive::Models::Schema::Organization</a></span></tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="Organization.html" title="OpenActive::Models::Schema::Organization (class)">OpenActive::Models::Schema::Organization</a></span></tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+162
+163
+164</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/job_posting.rb', line 162</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_hiring_organization'>hiring_organization</span>
+  <span class='ivar'>@hiring_organization</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="incentive_compensation=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="incentive_compensation-instance_method">
+  
+    #<strong>incentive_compensation</strong>  &#x21d2; <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+62
+63
+64</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/job_posting.rb', line 62</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_incentive_compensation'>incentive_compensation</span>
+  <span class='ivar'>@incentive_compensation</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="incentives=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="incentives-instance_method">
+  
+    #<strong>incentives</strong>  &#x21d2; <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+147
+148
+149</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/job_posting.rb', line 147</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_incentives'>incentives</span>
+  <span class='ivar'>@incentives</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="industry=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="industry-instance_method">
+  
+    #<strong>industry</strong>  &#x21d2; <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+73
+74
+75</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/job_posting.rb', line 73</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_industry'>industry</span>
+  <span class='ivar'>@industry</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="job_benefits=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="job_benefits-instance_method">
+  
+    #<strong>job_benefits</strong>  &#x21d2; <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+57
+58
+59</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/job_posting.rb', line 57</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_job_benefits'>job_benefits</span>
+  <span class='ivar'>@job_benefits</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="job_immediate_start=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="job_immediate_start-instance_method">
+  
+    #<strong>job_immediate_start</strong>  &#x21d2; <tt>Boolean</tt><sup>?</sup> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Boolean</tt>, <tt>nil</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+23
+24
+25</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/job_posting.rb', line 23</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_job_immediate_start'>job_immediate_start</span>
+  <span class='ivar'>@job_immediate_start</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="job_location=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="job_location-instance_method">
+  
+    #<strong>job_location</strong>  &#x21d2; <tt><span class='object_link'><a href="Place.html" title="OpenActive::Models::Schema::Place (class)">OpenActive::Models::Schema::Place</a></span></tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="Place.html" title="OpenActive::Models::Schema::Place (class)">OpenActive::Models::Schema::Place</a></span></tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+34
+35
+36</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/job_posting.rb', line 34</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_job_location'>job_location</span>
+  <span class='ivar'>@job_location</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="job_location_type=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="job_location_type-instance_method">
+  
+    #<strong>job_location_type</strong>  &#x21d2; <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+136
+137
+138</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/job_posting.rb', line 136</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_job_location_type'>job_location_type</span>
+  <span class='ivar'>@job_location_type</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="job_start_date=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="job_start_date-instance_method">
+  
+    #<strong>job_start_date</strong>  &#x21d2; <tt>String</tt>, ... 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>, <tt>Date</tt>, <tt>nil</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+106
+107
+108</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/job_posting.rb', line 106</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_job_start_date'>job_start_date</span>
+  <span class='ivar'>@job_start_date</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="occupational_category=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="occupational_category-instance_method">
+  
+    #<strong>occupational_category</strong>  &#x21d2; <tt><span class='object_link'><a href="CategoryCode.html" title="OpenActive::Models::Schema::CategoryCode (class)">OpenActive::Models::Schema::CategoryCode</a></span></tt>, <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="CategoryCode.html" title="OpenActive::Models::Schema::CategoryCode (class)">OpenActive::Models::Schema::CategoryCode</a></span></tt>, <tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+113
+114
+115</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/job_posting.rb', line 113</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_occupational_category'>occupational_category</span>
+  <span class='ivar'>@occupational_category</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="qualifications=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="qualifications-instance_method">
+  
+    #<strong>qualifications</strong>  &#x21d2; <tt>String</tt>, <tt><span class='object_link'><a href="EducationalOccupationalCredential.html" title="OpenActive::Models::Schema::EducationalOccupationalCredential (class)">OpenActive::Models::Schema::EducationalOccupationalCredential</a></span></tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>, <tt><span class='object_link'><a href="EducationalOccupationalCredential.html" title="OpenActive::Models::Schema::EducationalOccupationalCredential (class)">OpenActive::Models::Schema::EducationalOccupationalCredential</a></span></tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+130
+131
+132</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/job_posting.rb', line 130</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_qualifications'>qualifications</span>
+  <span class='ivar'>@qualifications</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="relevant_occupation=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="relevant_occupation-instance_method">
+  
+    #<strong>relevant_occupation</strong>  &#x21d2; <tt><span class='object_link'><a href="Occupation.html" title="OpenActive::Models::Schema::Occupation (class)">OpenActive::Models::Schema::Occupation</a></span></tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="Occupation.html" title="OpenActive::Models::Schema::Occupation (class)">OpenActive::Models::Schema::Occupation</a></span></tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+101
+102
+103</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/job_posting.rb', line 101</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_relevant_occupation'>relevant_occupation</span>
+  <span class='ivar'>@relevant_occupation</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="responsibilities=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="responsibilities-instance_method">
+  
+    #<strong>responsibilities</strong>  &#x21d2; <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+78
+79
+80</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/job_posting.rb', line 78</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_responsibilities'>responsibilities</span>
+  <span class='ivar'>@responsibilities</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="salary_currency=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="salary_currency-instance_method">
+  
+    #<strong>salary_currency</strong>  &#x21d2; <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+152
+153
+154</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/job_posting.rb', line 152</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_salary_currency'>salary_currency</span>
+  <span class='ivar'>@salary_currency</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="skills=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="skills-instance_method">
+  
+    #<strong>skills</strong>  &#x21d2; <tt><span class='object_link'><a href="DefinedTerm.html" title="OpenActive::Models::Schema::DefinedTerm (class)">OpenActive::Models::Schema::DefinedTerm</a></span></tt>, <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="DefinedTerm.html" title="OpenActive::Models::Schema::DefinedTerm (class)">OpenActive::Models::Schema::DefinedTerm</a></span></tt>, <tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+67
+68
+69</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/job_posting.rb', line 67</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_skills'>skills</span>
+  <span class='ivar'>@skills</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="special_commitments=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="special_commitments-instance_method">
+  
+    #<strong>special_commitments</strong>  &#x21d2; <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+18
+19
+20</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/job_posting.rb', line 18</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_special_commitments'>special_commitments</span>
+  <span class='ivar'>@special_commitments</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="title=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="title-instance_method">
+  
+    #<strong>title</strong>  &#x21d2; <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+13
+14
+15</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/job_posting.rb', line 13</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_title'>title</span>
+  <span class='ivar'>@title</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="total_job_openings=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="total_job_openings-instance_method">
+  
+    #<strong>total_job_openings</strong>  &#x21d2; <tt>int</tt><sup>?</sup> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>int</tt>, <tt>nil</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+83
+84
+85</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/job_posting.rb', line 83</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_total_job_openings'>total_job_openings</span>
+  <span class='ivar'>@total_job_openings</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="type=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="type-instance_method">
+  
+    #<strong>type</strong>  &#x21d2; <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+7
+8
+9</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/job_posting.rb', line 7</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_type'>type</span>
+  <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>schema:JobPosting</span><span class='tstring_end'>&quot;</span></span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="valid_through=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="valid_through-instance_method">
+  
+    #<strong>valid_through</strong>  &#x21d2; <tt>Date</tt>, ... 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Date</tt>, <tt>DateTime</tt>, <tt>nil</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+89
+90
+91</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/job_posting.rb', line 89</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_valid_through'>valid_through</span>
+  <span class='ivar'>@valid_through</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="work_hours=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="work_hours-instance_method">
+  
+    #<strong>work_hours</strong>  &#x21d2; <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+44
+45
+46</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/schema/job_posting.rb', line 44</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_work_hours'>work_hours</span>
+  <span class='ivar'>@work_hours</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+
+</div>
+
+      <div id="footer">
+  Generated on Wed Nov 27 13:49:05 2019 by
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.9.20 (ruby-2.6.3).
+</div>
+
+    </div>
+  </body>
+</html>
