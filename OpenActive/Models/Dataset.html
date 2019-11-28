@@ -76,8 +76,6 @@
           
             <li class="next"><span class='object_link'><a href="../BaseModel.html" title="OpenActive::BaseModel (class)">BaseModel</a></span></li>
           
-            <li class="next"><span class='object_link'><a href="../JsonLdModel.html" title="OpenActive::JsonLdModel (class)">JsonLdModel</a></span></li>
-          
             <li class="next"><span class='object_link'><a href="Schema/Thing.html" title="OpenActive::Models::Schema::Thing (class)">Schema::Thing</a></span></li>
           
             <li class="next"><span class='object_link'><a href="Schema/CreativeWork.html" title="OpenActive::Models::Schema::CreativeWork (class)">Schema::CreativeWork</a></span></li>
@@ -507,31 +505,6 @@
       <li class="public ">
   <span class="summary_signature">
     
-      <a href="#type-instance_method" title="#type (instance method)">#<strong>type</strong>  &#x21d2; String </a>
-    
-
-    
-  </span>
-  
-  
-  
-    
-    
-  
-  
-  
-  
-  
-
-  
-    <span class="summary_desc"><div class='inline'></div></span>
-  
-</li>
-
-    
-      <li class="public ">
-  <span class="summary_signature">
-    
       <a href="#url-instance_method" title="#url (instance method)">#<strong>url</strong>  &#x21d2; URI </a>
     
 
@@ -573,14 +546,41 @@
   <h3 class="inherited">Attributes inherited from <span class='object_link'><a href="Schema/Thing.html" title="OpenActive::Models::Schema::Thing (class)">Schema::Thing</a></span></h3>
   <p class="inherited"><span class='object_link'><a href="Schema/Thing.html#additional_type-instance_method" title="OpenActive::Models::Schema::Thing#additional_type (method)">#additional_type</a></span>, <span class='object_link'><a href="Schema/Thing.html#alternate_name-instance_method" title="OpenActive::Models::Schema::Thing#alternate_name (method)">#alternate_name</a></span>, <span class='object_link'><a href="Schema/Thing.html#disambiguating_description-instance_method" title="OpenActive::Models::Schema::Thing#disambiguating_description (method)">#disambiguating_description</a></span>, <span class='object_link'><a href="Schema/Thing.html#identifier-instance_method" title="OpenActive::Models::Schema::Thing#identifier (method)">#identifier</a></span>, <span class='object_link'><a href="Schema/Thing.html#image-instance_method" title="OpenActive::Models::Schema::Thing#image (method)">#image</a></span>, <span class='object_link'><a href="Schema/Thing.html#main_entity_of_page-instance_method" title="OpenActive::Models::Schema::Thing#main_entity_of_page (method)">#main_entity_of_page</a></span>, <span class='object_link'><a href="Schema/Thing.html#potential_action-instance_method" title="OpenActive::Models::Schema::Thing#potential_action (method)">#potential_action</a></span>, <span class='object_link'><a href="Schema/Thing.html#same_as-instance_method" title="OpenActive::Models::Schema::Thing#same_as (method)">#same_as</a></span>, <span class='object_link'><a href="Schema/Thing.html#subject_of-instance_method" title="OpenActive::Models::Schema::Thing#subject_of (method)">#subject_of</a></span></p>
 
-  
-  
-  <h3 class="inherited">Attributes inherited from <span class='object_link'><a href="../JsonLdModel.html" title="OpenActive::JsonLdModel (class)">JsonLdModel</a></span></h3>
-  <p class="inherited"><span class='object_link'><a href="../JsonLdModel.html#context-instance_method" title="OpenActive::JsonLdModel#context (method)">#context</a></span>, <span class='object_link'><a href="../JsonLdModel.html#id-instance_method" title="OpenActive::JsonLdModel#id (method)">#id</a></span></p>
-
-
 
   
+    <h2>
+      Instance Method Summary
+      <small><a href="#" class="summary_toggle">collapse</a></small>
+    </h2>
+
+    <ul class="summary">
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#type-instance_method" title="#type (instance method)">#<strong>type</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+    </ul>
+  
+
+
   
   
   
@@ -606,11 +606,6 @@
   
   
   
-  
-  
-  
-  
-  <h2>Method Summary</h2>
   
   <h3 class="inherited">Methods inherited from <span class='object_link'><a href="../BaseModel.html" title="OpenActive::BaseModel (class)">BaseModel</a></span></h3>
   <p class="inherited"><span class='object_link'><a href="../BaseModel.html#assign_attributes-instance_method" title="OpenActive::BaseModel#assign_attributes (method)">#assign_attributes</a></span>, <span class='object_link'><a href="../BaseModel.html#define_property-class_method" title="OpenActive::BaseModel.define_property (method)">define_property</a></span>, <span class='object_link'><a href="../BaseModel.html#deserialize-instance_method" title="OpenActive::BaseModel#deserialize (method)">#deserialize</a></span>, <span class='object_link'><a href="../BaseModel.html#deserialize-class_method" title="OpenActive::BaseModel.deserialize (method)">deserialize</a></span>, <span class='object_link'><a href="../BaseModel.html#deserialize_value-instance_method" title="OpenActive::BaseModel#deserialize_value (method)">#deserialize_value</a></span>, <span class='object_link'><a href="../BaseModel.html#initialize-instance_method" title="OpenActive::BaseModel#initialize (method)">#initialize</a></span>, <span class='object_link'><a href="../BaseModel.html#serialize-class_method" title="OpenActive::BaseModel.serialize (method)">serialize</a></span>, <span class='object_link'><a href="../BaseModel.html#serialize-instance_method" title="OpenActive::BaseModel#serialize (method)">#serialize</a></span>, <span class='object_link'><a href="../BaseModel.html#set_property-instance_method" title="OpenActive::BaseModel#set_property (method)">#set_property</a></span>, <span class='object_link'><a href="../BaseModel.html#to_json-instance_method" title="OpenActive::BaseModel#to_json (method)">#to_json</a></span></p>
@@ -685,12 +680,12 @@
       <pre class="lines">
 
 
-28
-29
-30</pre>
+30
+31
+32</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/openactive/models/dataset.rb', line 28</span>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/dataset.rb', line 30</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_access_service'>access_service</span>
   <span class='ivar'>@access_service</span>
@@ -739,12 +734,12 @@
       <pre class="lines">
 
 
-33
-34
-35</pre>
+37
+38
+39</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/openactive/models/dataset.rb', line 33</span>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/dataset.rb', line 37</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_background_image'>background_image</span>
   <span class='ivar'>@background_image</span>
@@ -793,12 +788,12 @@
       <pre class="lines">
 
 
-38
-39
-40</pre>
+44
+45
+46</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/openactive/models/dataset.rb', line 38</span>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/dataset.rb', line 44</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_booking_service'>booking_service</span>
   <span class='ivar'>@booking_service</span>
@@ -847,12 +842,12 @@
       <pre class="lines">
 
 
-43
-44
-45</pre>
+51
+52
+53</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/openactive/models/dataset.rb', line 43</span>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/dataset.rb', line 51</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_date_modified'>date_modified</span>
   <span class='ivar'>@date_modified</span>
@@ -901,12 +896,12 @@
       <pre class="lines">
 
 
-49
-50
-51</pre>
+59
+60
+61</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/openactive/models/dataset.rb', line 49</span>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/dataset.rb', line 59</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_date_published'>date_published</span>
   <span class='ivar'>@date_published</span>
@@ -1009,12 +1004,12 @@
       <pre class="lines">
 
 
-56
-57
-58</pre>
+68
+69
+70</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/openactive/models/dataset.rb', line 56</span>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/dataset.rb', line 68</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_discussion_url'>discussion_url</span>
   <span class='ivar'>@discussion_url</span>
@@ -1063,12 +1058,12 @@
       <pre class="lines">
 
 
-61
-62
-63</pre>
+75
+76
+77</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/openactive/models/dataset.rb', line 61</span>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/dataset.rb', line 75</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_distribution'>distribution</span>
   <span class='ivar'>@distribution</span>
@@ -1117,12 +1112,12 @@
       <pre class="lines">
 
 
-66
-67
-68</pre>
+82
+83
+84</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/openactive/models/dataset.rb', line 66</span>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/dataset.rb', line 82</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_documentation'>documentation</span>
   <span class='ivar'>@documentation</span>
@@ -1171,12 +1166,12 @@
       <pre class="lines">
 
 
-71
-72
-73</pre>
+89
+90
+91</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/openactive/models/dataset.rb', line 71</span>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/dataset.rb', line 89</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_in_language'>in_language</span>
   <span class='ivar'>@in_language</span>
@@ -1225,12 +1220,12 @@
       <pre class="lines">
 
 
-76
-77
-78</pre>
+96
+97
+98</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/openactive/models/dataset.rb', line 76</span>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/dataset.rb', line 96</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_keywords'>keywords</span>
   <span class='ivar'>@keywords</span>
@@ -1279,12 +1274,12 @@
       <pre class="lines">
 
 
-81
-82
-83</pre>
+103
+104
+105</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/openactive/models/dataset.rb', line 81</span>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/dataset.rb', line 103</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_license'>license</span>
   <span class='ivar'>@license</span>
@@ -1333,12 +1328,12 @@
       <pre class="lines">
 
 
-18
-19
-20</pre>
+16
+17
+18</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/openactive/models/dataset.rb', line 18</span>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/dataset.rb', line 16</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_name'>name</span>
   <span class='ivar'>@name</span>
@@ -1387,12 +1382,12 @@
       <pre class="lines">
 
 
-86
-87
-88</pre>
+110
+111
+112</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/openactive/models/dataset.rb', line 86</span>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/dataset.rb', line 110</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_publisher'>publisher</span>
   <span class='ivar'>@publisher</span>
@@ -1441,69 +1436,15 @@
       <pre class="lines">
 
 
-91
-92
-93</pre>
+117
+118
+119</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/openactive/models/dataset.rb', line 91</span>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/dataset.rb', line 117</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_schema_version'>schema_version</span>
   <span class='ivar'>@schema_version</span>
-<span class='kw'>end</span></pre>
-    </td>
-  </tr>
-</table>
-</div>
-    
-      
-      <span id="type=-instance_method"></span>
-      <div class="method_details ">
-  <h3 class="signature " id="type-instance_method">
-  
-    #<strong>type</strong>  &#x21d2; <tt>String</tt> 
-  
-
-  
-
-  
-</h3><div class="docstring">
-  <div class="discussion">
-    
-
-  </div>
-</div>
-<div class="tags">
-  
-<p class="tag_title">Returns:</p>
-<ul class="return">
-  
-    <li>
-      
-      
-        <span class='type'>(<tt>String</tt>)</span>
-      
-      
-      
-    </li>
-  
-</ul>
-
-</div><table class="source_code">
-  <tr>
-    <td>
-      <pre class="lines">
-
-
-12
-13
-14</pre>
-    </td>
-    <td>
-      <pre class="code"><span class="info file"># File 'lib/openactive/models/dataset.rb', line 12</span>
-
-<span class='kw'>def</span> <span class='id identifier rubyid_type'>type</span>
-  <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Dataset</span><span class='tstring_end'>&quot;</span></span>
 <span class='kw'>end</span></pre>
     </td>
   </tr>
@@ -1549,12 +1490,12 @@
       <pre class="lines">
 
 
-96
-97
-98</pre>
+124
+125
+126</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/openactive/models/dataset.rb', line 96</span>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/dataset.rb', line 124</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_url'>url</span>
   <span class='ivar'>@url</span>
@@ -1567,10 +1508,46 @@
   </div>
 
 
+  <div id="instance_method_details" class="method_details_list">
+    <h2>Instance Method Details</h2>
+
+    
+      <div class="method_details first">
+  <h3 class="signature first" id="type-instance_method">
+  
+    #<strong>type</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+10
+11
+12</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/openactive/models/dataset.rb', line 10</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_type'>type</span>
+  <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Dataset</span><span class='tstring_end'>&quot;</span></span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
 </div>
 
       <div id="footer">
-  Generated on Wed Nov 27 13:48:11 2019 by
+  Generated on Thu Nov 28 15:57:03 2019 by
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
   0.9.20 (ruby-2.6.3).
 </div>
